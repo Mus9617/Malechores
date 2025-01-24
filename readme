@@ -1,8 +1,5 @@
 # Advanced Witness System for Police in RedM
 
-
-
-
 ## Description
 
 This project is an advanced witness system for police in RedM, designed to integrate with VorpCore. It allows players to set coordinates, create temporary blips, and send notifications to police officers in the game.
@@ -16,6 +13,9 @@ This project is an advanced witness system for police in RedM, designed to integ
 - **Notifications**: Send notifications to police officers with relevant information.
 - **User Interface**: An interactive user interface to send witness descriptions.
 - **Cooldown System**: Cooldown system to prevent abuse of the witness command.
+- **Randomized Alerts**: The police receive a total of 3 alerts. The first alert is mandatory and includes the coordinates of the subjects. For the second and third alerts, 
+    the system rolls a die. If the result is less than 3, the police receive nothing; if it is greater than 3, the police receive the coordinates.
+- **Immediate Alerts in Cities**: If the subject passes through cities within their radius, the police receive an immediate alert of their position. This is active during the 10-minute pursuit duration.
 
 ## Project Structure
 
