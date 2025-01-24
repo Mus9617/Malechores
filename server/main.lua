@@ -1,8 +1,8 @@
 -- Lista de Steam IDs de policías
 local listaPolicias = {
-    ["steam:1100001077f813e"] = true,
-    ["steam:110000140ba4d47"] = true,
-    ["steam:110000102273875"] = true
+    ["Steam id here"] = true,
+    ["Steam id here"] = true,
+    ["Steam id here"] = true
 }
 
 local actualizacionesActivas = {}
