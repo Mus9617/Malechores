@@ -1,0 +1,51 @@
+# Advanced Witness System for Police in RedM
+
+![Witness System](https://i.ibb.co/WFJbr94/Design-sans-titre-1-unscreen.gif)
+
+## Description
+
+This project is an advanced witness system for police in RedM, designed to integrate with VorpCore. It allows players to set coordinates, create temporary blips, and send notifications to police officers in the game.
+
+**Note: This script is not finished and requires some adjustments.**
+
+## Features
+
+- **Save Coordinates**: Players can save and update coordinates.
+- **Create Temporary Blips**: Create blips on the map that automatically remove after a certain time.
+- **Notifications**: Send notifications to police officers with relevant information.
+- **User Interface**: An interactive user interface to send witness descriptions.
+- **Cooldown System**: Cooldown system to prevent abuse of the witness command.
+
+## Project Structure
+
+## Installation
+
+1. Clone this repository to your RedM server.
+2. Add the resource to your `server.cfg`:
+    ```
+    ensure resource_name
+    ```
+3. Configure the cities and other parameters in `shared/config.lua`.
+
+## Usage
+
+- **Save Coordinates**: Use the event `malechores:guardarCoords` to save coordinates.
+- **Create Blips**: Press the DOWN key to create a blip at the saved coordinates.
+- **Delete Blips**: Press the UP key to delete all active blips.
+- **Send Witness**: Use the user interface to send witness descriptions.
+
+## Contributions
+
+Contributions are welcome! If you wish to contribute, please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Zowix** - *Lead Developer*
+
+---
+
+Thank you for using the Advanced Witness System for Police in RedM!

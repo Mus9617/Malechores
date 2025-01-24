@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Testigos</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        #menu {
+            display: flex;
+            flex-direction: column;
+            background: rgba(30, 30, 30, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        #logo {
+            margin-bottom: 20px;
+        }
+        #logo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        #menu h2 {
+            font-size: 18px;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+        #menu h1 {
+            font-size: 24px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        #descripcion {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #444;
+            font-size: 16px;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        #menu button {
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-primary {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+        .btn-close {
+            background-color: #FF4136;
+            color: white;
+        }
+        .btn-close:hover {
+            background-color: #e63629;
+        }
+        #menu-footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div id="logo">
+            <a href="#" target="_blank">
+                <img src="https://i.ibb.co/WFJbr94/Design-sans-titre-1-unscreen.gif" alt="Logo del Sistema">
+            </a>
+        </div>
+        <h1>Testigos</h1>
+        <h2>Cuidado con lo que escribes Redentor, toda palabra puede tener sus consecuencias.</h2>
+        <input type="text" id="descripcion" placeholder="Describe al sujeto aquí..." />
+        <button class="btn-primary" onclick="sendTestigo()">Enviar Testigo</button>
+        <button class="btn-close" onclick="closeUI()">Cerrar</button>
+        <div id="menu-footer">© 2024 Sistema de Testigos</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
